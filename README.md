@@ -4,7 +4,7 @@ prerequisite instructions
 
 ```bash
 
-git clone https://github.com/zarumen/dci-lab
+git clone https://github.com/zarumen/dci-lab.git
 
 cd dci-lab/
 
