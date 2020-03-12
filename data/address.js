@@ -1,4 +1,4 @@
-export const address = [
+export default [
   {
     id: 52,
     addressName: "วัดกก",
