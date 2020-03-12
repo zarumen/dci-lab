@@ -1,0 +1,17 @@
+const prompt = require('prompt-sync')();
+
+const name = prompt('What is your name?');
+var i = 1;                     //  set your counter to 1
+
+function myLoop () {           //  create a loop function
+   setTimeout(() => {    //  call a 3s setTimeout when the loop is called
+      console.log(10-i);          //  your code here
+      i++;                     //  increment the counter
+      if (i < 10) {            //  if the counter < 10, call the loop function
+         myLoop();             //  ..  again which will trigger another 
+      } else {
+        console.log(`Hi there ${name}`);
+      }                       //  ..  setTimeout()
+   }, 1000)
+}
+myLoop();
